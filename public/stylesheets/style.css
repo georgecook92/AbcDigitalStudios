@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+     justify-content: center;
+     /* align horizontal */
+     align-items: center;
+     /* align vertical */
+     border: 1px solid black;
+     align-content: flex-end;
+}
+
+
+.container img {
+  width: 50%;
+}
+
+.container h3 {
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .container img {
+    width: 70%;
+  }
+}
